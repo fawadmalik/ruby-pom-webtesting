@@ -1,10 +1,12 @@
-# frozen_string_literal: true
+# Rakefile
 
-require "bundler/gem_tasks"
-require "minitest/test_task"
+require 'rake/testtask'
 
-Minitest::TestTask.create
+task default: [:test]
 
-require "standard/rake"
-
-task default: %i[test standard]
+Rake::TestTask.new do |webtesttask|
+  webtesttask.libs << 'spec'
+  webtesttask.pattern = 'spec/**/*_spec.rb'
+  webtesttask.verbose = true
+  webtesttask.warning = true
+end
