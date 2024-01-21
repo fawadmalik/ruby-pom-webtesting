@@ -6,7 +6,7 @@ require_relative '../pages/hovers_page'
 describe 'Hovers Page' do
   before(:all) do
     @hovers_page = HoversPage.new(@browser)
-    @hovers_page.navigate_to
+    @hovers_page.goto
   end
 
   it 'should hover over the first user and validate displayed information' do

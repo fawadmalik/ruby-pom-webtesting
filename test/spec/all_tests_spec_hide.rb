@@ -1,4 +1,4 @@
-# spec/all_tests_spec_hide.rb
+# test/spec/all_tests_spec_hide.rb
 
 require_relative 'checkboxes_spec'
 require_relative 'disappearing_elements_spec'

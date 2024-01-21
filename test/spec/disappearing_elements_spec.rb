@@ -6,7 +6,7 @@ require_relative '../pages/disappearing_elements_page'
 describe 'Disappearing Elements Page' do
   before(:all) do
     @disappearing_elements_page = DisappearingElementsPage.new(@browser)
-    @disappearing_elements_page.navigate_to
+    @disappearing_elements_page.goto
   end
 
   it 'should validate the presence of initially visible elements' do

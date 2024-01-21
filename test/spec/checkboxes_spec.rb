@@ -6,7 +6,7 @@ require_relative '../pages/checkboxes_page'
 describe 'Checkboxes Page' do
   before(:all) do
     @checkboxes_page = CheckboxesPage.new(@browser)
-    @checkboxes_page.navigate_to
+    @checkboxes_page.goto
 
     sleep 5
   end

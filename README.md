@@ -12,3 +12,11 @@ project_directory/
 |   |-- checkboxes_page.rb
 |   |-- disappearing_elements_page.rb
 |   |-- hovers_page.rb
+
+
+to run a test file, run from commandline
+
+```bash
+rspec test/spec/checkboxes_spec.rb
+
+```
