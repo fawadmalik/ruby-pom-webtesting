@@ -1,6 +1,6 @@
-# spec/disappearing_elements_spec.rb
+# test/spec/disappearing_elements_spec.rb
 
-require_relative '../spec_helper'
+require_relative 'spec_helper'
 require_relative '../pages/disappearing_elements_page'
 
 describe 'Disappearing Elements Page' do

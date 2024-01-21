@@ -3,6 +3,8 @@
 require 'rspec'
 require 'page-object'
 require 'selenium-webdriver'
+require_relative '../test_helper'
+require 'minitest/autorun'
 
 RSpec.configure do |config|
   config.include PageObject::PageFactory

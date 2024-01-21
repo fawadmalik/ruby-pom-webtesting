@@ -1,6 +1,6 @@
-# spec/checkboxes_spec.rb
+# test/spec/checkboxes_spec.rb
 
-require_relative '../spec_helper'
+require_relative 'spec_helper'
 require_relative '../pages/checkboxes_page'
 
 describe 'Checkboxes Page' do

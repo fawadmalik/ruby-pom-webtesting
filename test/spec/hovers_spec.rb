@@ -1,6 +1,6 @@
 # spec/hovers_spec.rb
 
-require_relative '../spec_helper'
+require_relative 'spec_helper'
 require_relative '../pages/hovers_page'
 
 describe 'Hovers Page' do
