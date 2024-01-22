@@ -1,9 +1,7 @@
 # Gemfile
+
 source 'https://rubygems.org'
 
-gem 'selenium-webdriver'
-gem 'minitest'
+gem 'watir', '~> 7.0'
+gem 'test-unit'
 gem 'minitest-reporters'
-gem 'rake'
-gem 'page-object'
-gem 'rspec'

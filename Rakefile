@@ -2,11 +2,12 @@
 
 require 'rake/testtask'
 
-task default: [:test]
+task default: :test
 
 Rake::TestTask.new do |webtesttask|
   webtesttask.libs << 'spec'
-  webtesttask.pattern = 'spec/**/*_spec.rb'
-  webtesttask.verbose = true
-  webtesttask.warning = true
+  webtesttask.test_files = FileList['test/**/*_test.rb']
 end
+
+
+

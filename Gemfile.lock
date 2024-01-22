@@ -3,64 +3,35 @@ GEM
   specs:
     ansi (1.5.0)
     builder (3.2.4)
-    concurrent-ruby (1.2.2)
-    data_magic (1.2)
-      faker (>= 1.1.2)
-      yml_reader (>= 0.6)
-    diff-lcs (1.5.0)
-    faker (3.2.1)
-      i18n (>= 1.8.11, < 2)
-    i18n (1.14.1)
-      concurrent-ruby (~> 1.0)
     minitest (5.20.0)
     minitest-reporters (1.6.1)
       ansi
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    page-object (2.3.1)
-      page_navigation (>= 0.10)
-      watir (>= 6.10.3)
-    page_navigation (0.10)
-      data_magic (>= 0.22)
-    rake (13.1.0)
+    power_assert (2.0.3)
     regexp_parser (2.9.0)
     rexml (3.2.6)
-    rspec (3.12.0)
-      rspec-core (~> 3.12.0)
-      rspec-expectations (~> 3.12.0)
-      rspec-mocks (~> 3.12.0)
-    rspec-core (3.12.2)
-      rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.3)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.6)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-support (3.12.1)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.16.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    test-unit (3.5.7)
+      power_assert
     watir (7.3.0)
       regexp_parser (>= 1.2, < 3)
       selenium-webdriver (~> 4.2)
     websocket (1.2.10)
-    yml_reader (0.7)
 
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  minitest
   minitest-reporters
-  page-object
-  rake
-  rspec
-  selenium-webdriver
+  test-unit
+  watir (~> 7.0)
 
 BUNDLED WITH
    2.5.3
