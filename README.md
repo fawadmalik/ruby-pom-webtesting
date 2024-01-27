@@ -35,9 +35,10 @@ project_directory/
 
 ```
  
-to run a test file, run from commandline
+to run all tests, run from commandline
 
 ```bash
-rspec test/spec/checkboxes_spec.rb
+
+rake
 
 ```
