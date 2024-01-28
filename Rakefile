@@ -12,5 +12,9 @@ Rake::TestTask.new(:disappearing) do |task|
   task.pattern = 'test/disappearing_test.rb'
 end
 
+Rake::TestTask.new(:iframe) do |task|
+  task.pattern = 'test/iframe_test.rb'
+end
+
 # Default task to run all tests
-task default: [:checkboxes, :disappearing]
+task default: [:checkboxes, :disappearing, :iframe]
