@@ -86,4 +86,4 @@ The floor is now open for questions, anecdotes, and shared experiences. Foster a
 You have my gratitude for being part of this talk, your attention, and contributions to the discussion.
 
 #### Stay Connected:
-I am here. github: LinkedIn: twitter
+I am here. github:https://github.com/fawadmalik, LinkedIn:https://www.linkedin.com/in/fawad-malik-qa-automation-dev/, twitter
